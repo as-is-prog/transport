@@ -1,0 +1,1810 @@
+<rdf:RDF
+  xmlns:jrrk="http://purl.org/jrrk#"
+  xmlns:ic="http://imi.ipa.go.jp/ns/core/rdf#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:sac="http://statdb.nstac.go.jp/lod/sac/C"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:pc="http://purl.org/procurement/public-contracts#"
+  xmlns:odp="http://odp.jig.jp/odp/1.0#"
+  xmlns:schema="http://schema.org/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:bibo="http://purl.org/ontology/bibo/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:gr="http://purl.org/goodrelations/v1#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:qb="http://purl.org/linked-data/cube#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:georss="http://www.georss.org/georss"
+  xmlns:cal="http://www.w3.org/2002/12/cal/icaltzd#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:transport="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#"
+  >
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kokusaikaikan_Rokujizo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kokusaikaikan" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kokusaikaikan_Ishida">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kokusaikaikan" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ishida" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kokusaikaikan_Daigo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kokusaikaikan" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Daigo" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kokusaikaikan_Ono">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kokusaikaikan" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ono" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kokusaikaikan_Nagitsuji">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kokusaikaikan" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nagitsuji" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kokusaikaikan_Higashino">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kokusaikaikan" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashino" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kokusaikaikan_Yamashina">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kokusaikaikan" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Yamashina" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kokusaikaikan_Misasagi">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kokusaikaikan" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Misasagi" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kokusaikaikan_Keage">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kokusaikaikan" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Keage" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kokusaikaikan_Higashiyama">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kokusaikaikan" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashiyama" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kokusaikaikan_SanjoKeihan">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kokusaikaikan" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/SanjoKeihan" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kokusaikaikan_KyotoShiyakushoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kokusaikaikan" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kokusaikaikan_KarasumaOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kokusaikaikan" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kokusaikaikan_NijojoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kokusaikaikan" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NijojoMae" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kokusaikaikan_Nijo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kokusaikaikan" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nijo" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kokusaikaikan_NishiojiOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kokusaikaikan" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NishiojiOike" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kokusaikaikan_UzumasaTenjingawa">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kokusaikaikan" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Matsugasaki_Rokujizo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Matsugasaki" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Matsugasaki_Ishida">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Matsugasaki" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ishida" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Matsugasaki_Daigo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Matsugasaki" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Daigo" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Matsugasaki_Ono">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Matsugasaki" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ono" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Matsugasaki_Nagitsuji">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Matsugasaki" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nagitsuji" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Matsugasaki_Higashino">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Matsugasaki" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashino" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Matsugasaki_Yamashina">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Matsugasaki" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Yamashina" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Matsugasaki_Misasagi">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Matsugasaki" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Misasagi" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Matsugasaki_Keage">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Matsugasaki" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Keage" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Matsugasaki_Higashiyama">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Matsugasaki" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashiyama" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Matsugasaki_SanjoKeihan">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Matsugasaki" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/SanjoKeihan" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Matsugasaki_KyotoShiyakushoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Matsugasaki" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Matsugasaki_KarasumaOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Matsugasaki" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Matsugasaki_NijojoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Matsugasaki" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NijojoMae" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Matsugasaki_Nijo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Matsugasaki" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nijo" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Matsugasaki_NishiojiOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Matsugasaki" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NishiojiOike" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Matsugasaki_UzumasaTenjingawa">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Matsugasaki" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitayama_Rokujizo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitayama" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitayama_Ishida">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitayama" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ishida" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitayama_Daigo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitayama" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Daigo" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitayama_Ono">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitayama" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ono" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitayama_Nagitsuji">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitayama" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nagitsuji" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitayama_Higashino">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitayama" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashino" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitayama_Yamashina">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitayama" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Yamashina" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitayama_Misasagi">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitayama" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Misasagi" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitayama_Keage">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitayama" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Keage" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitayama_Higashiyama">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitayama" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashiyama" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitayama_SanjoKeihan">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitayama" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/SanjoKeihan" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitayama_KyotoShiyakushoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitayama" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitayama_KarasumaOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitayama" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitayama_NijojoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitayama" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NijojoMae" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitayama_Nijo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitayama" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nijo" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitayama_NishiojiOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitayama" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NishiojiOike" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitayama_UzumasaTenjingawa">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitayama" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitaoji_Rokujizo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitaoji" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitaoji_Ishida">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitaoji" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ishida" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitaoji_Daigo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitaoji" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Daigo" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitaoji_Ono">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitaoji" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ono" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitaoji_Nagitsuji">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitaoji" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nagitsuji" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitaoji_Higashino">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitaoji" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashino" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitaoji_Yamashina">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitaoji" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Yamashina" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitaoji_Misasagi">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitaoji" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Misasagi" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitaoji_Keage">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitaoji" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Keage" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitaoji_Higashiyama">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitaoji" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashiyama" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitaoji_SanjoKeihan">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitaoji" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/SanjoKeihan" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitaoji_KyotoShiyakushoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitaoji" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitaoji_KarasumaOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitaoji" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitaoji_NijojoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitaoji" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NijojoMae" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitaoji_Nijo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitaoji" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nijo" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitaoji_NishiojiOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitaoji" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NishiojiOike" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kitaoji_UzumasaTenjingawa">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitaoji" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuramaguchi_Rokujizo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuramaguchi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuramaguchi_Ishida">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuramaguchi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ishida" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuramaguchi_Daigo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuramaguchi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Daigo" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuramaguchi_Ono">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuramaguchi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ono" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuramaguchi_Nagitsuji">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuramaguchi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nagitsuji" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuramaguchi_Higashino">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuramaguchi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashino" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuramaguchi_Yamashina">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuramaguchi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Yamashina" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuramaguchi_Misasagi">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuramaguchi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Misasagi" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuramaguchi_Keage">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuramaguchi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Keage" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuramaguchi_Higashiyama">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuramaguchi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashiyama" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuramaguchi_SanjoKeihan">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuramaguchi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/SanjoKeihan" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuramaguchi_KyotoShiyakushoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuramaguchi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuramaguchi_KarasumaOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuramaguchi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuramaguchi_NijojoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuramaguchi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NijojoMae" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuramaguchi_Nijo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuramaguchi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nijo" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuramaguchi_NishiojiOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuramaguchi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NishiojiOike" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuramaguchi_UzumasaTenjingawa">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuramaguchi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Imadegawa_Rokujizo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Imadegawa" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Imadegawa_Ishida">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Imadegawa" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ishida" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Imadegawa_Daigo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Imadegawa" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Daigo" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Imadegawa_Ono">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Imadegawa" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ono" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Imadegawa_Nagitsuji">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Imadegawa" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nagitsuji" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Imadegawa_Higashino">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Imadegawa" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashino" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Imadegawa_Yamashina">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Imadegawa" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Yamashina" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Imadegawa_Misasagi">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Imadegawa" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Misasagi" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Imadegawa_Keage">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Imadegawa" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Keage" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Imadegawa_Higashiyama">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Imadegawa" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashiyama" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Imadegawa_SanjoKeihan">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Imadegawa" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/SanjoKeihan" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Imadegawa_KyotoShiyakushoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Imadegawa" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Imadegawa_KarasumaOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Imadegawa" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Imadegawa_NijojoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Imadegawa" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NijojoMae" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Imadegawa_Nijo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Imadegawa" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nijo" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Imadegawa_NishiojiOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Imadegawa" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NishiojiOike" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Imadegawa_UzumasaTenjingawa">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Imadegawa" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Marutamachi_Rokujizo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Marutamachi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Marutamachi_Ishida">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Marutamachi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ishida" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Marutamachi_Daigo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Marutamachi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Daigo" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Marutamachi_Ono">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Marutamachi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ono" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Marutamachi_Nagitsuji">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Marutamachi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nagitsuji" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Marutamachi_Higashino">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Marutamachi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashino" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Marutamachi_Yamashina">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Marutamachi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Yamashina" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Marutamachi_Misasagi">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Marutamachi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Misasagi" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Marutamachi_Keage">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Marutamachi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Keage" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Marutamachi_Higashiyama">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Marutamachi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashiyama" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Marutamachi_SanjoKeihan">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Marutamachi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/SanjoKeihan" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Marutamachi_KyotoShiyakushoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Marutamachi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Marutamachi_KarasumaOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Marutamachi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Marutamachi_NijojoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Marutamachi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NijojoMae" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Marutamachi_Nijo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Marutamachi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nijo" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Marutamachi_NishiojiOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Marutamachi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NishiojiOike" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Marutamachi_UzumasaTenjingawa">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Marutamachi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_KarasumaOike_Rokujizo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_KarasumaOike_Ishida">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ishida" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_KarasumaOike_Daigo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Daigo" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_KarasumaOike_Ono">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ono" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_KarasumaOike_Nagitsuji">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nagitsuji" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_KarasumaOike_Higashino">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashino" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_KarasumaOike_Yamashina">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Yamashina" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_KarasumaOike_Misasagi">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Misasagi" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_KarasumaOike_Keage">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Keage" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_KarasumaOike_Higashiyama">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashiyama" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_KarasumaOike_SanjoKeihan">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/SanjoKeihan" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_KarasumaOike_KyotoShiyakushoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_KarasumaOike_KarasumaOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <schema:price>0</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_KarasumaOike_NijojoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NijojoMae" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_KarasumaOike_Nijo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nijo" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_KarasumaOike_NishiojiOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NishiojiOike" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_KarasumaOike_UzumasaTenjingawa">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Shijo_Rokujizo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Shijo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Shijo_Ishida">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Shijo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ishida" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Shijo_Daigo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Shijo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Daigo" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Shijo_Ono">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Shijo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ono" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Shijo_Nagitsuji">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Shijo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nagitsuji" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Shijo_Higashino">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Shijo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashino" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Shijo_Yamashina">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Shijo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Yamashina" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Shijo_Misasagi">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Shijo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Misasagi" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Shijo_Keage">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Shijo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Keage" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Shijo_Higashiyama">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Shijo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashiyama" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Shijo_SanjoKeihan">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Shijo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/SanjoKeihan" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Shijo_KyotoShiyakushoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Shijo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Shijo_KarasumaOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Shijo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Shijo_NijojoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Shijo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NijojoMae" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Shijo_Nijo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Shijo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nijo" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Shijo_NishiojiOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Shijo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NishiojiOike" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Shijo_UzumasaTenjingawa">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Shijo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Gojo_Rokujizo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Gojo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Gojo_Ishida">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Gojo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ishida" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Gojo_Daigo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Gojo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Daigo" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Gojo_Ono">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Gojo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ono" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Gojo_Nagitsuji">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Gojo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nagitsuji" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Gojo_Higashino">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Gojo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashino" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Gojo_Yamashina">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Gojo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Yamashina" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Gojo_Misasagi">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Gojo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Misasagi" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Gojo_Keage">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Gojo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Keage" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Gojo_Higashiyama">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Gojo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashiyama" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Gojo_SanjoKeihan">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Gojo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/SanjoKeihan" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Gojo_KyotoShiyakushoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Gojo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Gojo_KarasumaOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Gojo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Gojo_NijojoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Gojo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NijojoMae" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Gojo_Nijo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Gojo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nijo" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Gojo_NishiojiOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Gojo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NishiojiOike" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Gojo_UzumasaTenjingawa">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Gojo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kyoto_Rokujizo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kyoto" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kyoto_Ishida">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kyoto" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ishida" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kyoto_Daigo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kyoto" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Daigo" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kyoto_Ono">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kyoto" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ono" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kyoto_Nagitsuji">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kyoto" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nagitsuji" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kyoto_Higashino">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kyoto" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashino" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kyoto_Yamashina">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kyoto" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Yamashina" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kyoto_Misasagi">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kyoto" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Misasagi" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kyoto_Keage">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kyoto" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Keage" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kyoto_Higashiyama">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kyoto" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashiyama" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kyoto_SanjoKeihan">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kyoto" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/SanjoKeihan" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kyoto_KyotoShiyakushoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kyoto" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kyoto_KarasumaOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kyoto" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <schema:price>210</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kyoto_NijojoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kyoto" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NijojoMae" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kyoto_Nijo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kyoto" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nijo" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kyoto_NishiojiOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kyoto" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NishiojiOike" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kyoto_UzumasaTenjingawa">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kyoto" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kujo_Rokujizo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kujo_Ishida">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ishida" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kujo_Daigo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Daigo" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kujo_Ono">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ono" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kujo_Nagitsuji">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nagitsuji" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kujo_Higashino">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashino" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kujo_Yamashina">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Yamashina" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kujo_Misasagi">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Misasagi" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kujo_Keage">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Keage" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kujo_Higashiyama">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashiyama" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kujo_SanjoKeihan">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/SanjoKeihan" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kujo_KyotoShiyakushoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kujo_KarasumaOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kujo_NijojoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NijojoMae" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kujo_Nijo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nijo" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kujo_NishiojiOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NishiojiOike" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kujo_UzumasaTenjingawa">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Jujo_Rokujizo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Jujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Jujo_Ishida">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Jujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ishida" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Jujo_Daigo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Jujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Daigo" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Jujo_Ono">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Jujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ono" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Jujo_Nagitsuji">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Jujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nagitsuji" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Jujo_Higashino">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Jujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashino" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Jujo_Yamashina">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Jujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Yamashina" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Jujo_Misasagi">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Jujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Misasagi" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Jujo_Keage">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Jujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Keage" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Jujo_Higashiyama">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Jujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashiyama" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Jujo_SanjoKeihan">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Jujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/SanjoKeihan" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Jujo_KyotoShiyakushoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Jujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Jujo_KarasumaOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Jujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Jujo_NijojoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Jujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NijojoMae" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Jujo_Nijo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Jujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nijo" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Jujo_NishiojiOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Jujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NishiojiOike" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Jujo_UzumasaTenjingawa">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Jujo" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuinabashi_Rokujizo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuinabashi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuinabashi_Ishida">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuinabashi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ishida" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuinabashi_Daigo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuinabashi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Daigo" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuinabashi_Ono">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuinabashi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ono" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuinabashi_Nagitsuji">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuinabashi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nagitsuji" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuinabashi_Higashino">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuinabashi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashino" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuinabashi_Yamashina">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuinabashi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Yamashina" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuinabashi_Misasagi">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuinabashi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Misasagi" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuinabashi_Keage">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuinabashi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Keage" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuinabashi_Higashiyama">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuinabashi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashiyama" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuinabashi_SanjoKeihan">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuinabashi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/SanjoKeihan" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuinabashi_KyotoShiyakushoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuinabashi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuinabashi_KarasumaOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuinabashi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuinabashi_NijojoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuinabashi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NijojoMae" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuinabashi_Nijo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuinabashi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nijo" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuinabashi_NishiojiOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuinabashi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NishiojiOike" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Kuinabashi_UzumasaTenjingawa">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuinabashi" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Takeda_Rokujizo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Takeda" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Takeda_Ishida">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Takeda" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ishida" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Takeda_Daigo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Takeda" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Daigo" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Takeda_Ono">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Takeda" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ono" />
+    <schema:price>350</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Takeda_Nagitsuji">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Takeda" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nagitsuji" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Takeda_Higashino">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Takeda" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashino" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Takeda_Yamashina">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Takeda" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Yamashina" />
+    <schema:price>320</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Takeda_Misasagi">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Takeda" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Misasagi" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Takeda_Keage">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Takeda" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Keage" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Takeda_Higashiyama">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Takeda" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashiyama" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Takeda_SanjoKeihan">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Takeda" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/SanjoKeihan" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Takeda_KyotoShiyakushoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Takeda" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Takeda_KarasumaOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Takeda" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Takeda_NijojoMae">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Takeda" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NijojoMae" />
+    <schema:price>260</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Takeda_Nijo">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Takeda" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nijo" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Takeda_NishiojiOike">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Takeda" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/NishiojiOike" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Fare_Takeda_UzumasaTenjingawa">
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/Takeda" />
+    <transport:station rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <schema:price>290</schema:price>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Fare" />
+  </rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,98 @@
+@prefix bibo:  <http://purl.org/ontology/bibo/>.
+@prefix cal:   <http://www.w3.org/2002/12/cal/icaltzd#>.
+@prefix cc:    <http://creativecommons.org/ns#>.
+@prefix dc:    <http://purl.org/dc/elements/1.1/>.
+@prefix dct:   <http://purl.org/dc/terms/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf:  <http://xmlns.com/foaf/0.1/>.
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix georss: <http://www.georss.org/georss>.
+@prefix gr:    <http://purl.org/goodrelations/v1#>.
+@prefix ic:    <http://imi.ipa.go.jp/ns/core/rdf#>.
+@prefix jrrk:  <http://purl.org/jrrk#>.
+@prefix owl:   <http://www.w3.org/2002/07/owl#>.
+@prefix pc:    <http://purl.org/procurement/public-contracts#>.
+@prefix qb:    <http://purl.org/linked-data/cube#>.
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sac:   <http://statdb.nstac.go.jp/lod/sac/C>.
+@prefix sacs:  <http://statdb.nstac.go.jp/lod/terms/sacs#>.
+@prefix schema: <http://schema.org/>.
+@prefix sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#>.
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>.
+@prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#>.
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#>.
+@prefix reg: <http://purl.org/metainfo/terms/registry#> .
+@prefix transport: <https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#>.
+
+<https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#>
+        a               owl:Ontology ;
+        rdfs:label          "交通機関に関する語彙"@ja ;
+        dcterms:creator     [   foaf:homepage   <https://kyoto-subway.herokuapp.com/> ;
+                                foaf:name       "as-is-prog"@ja
+                            ] ;
+        dcterms:issued   "2018-06-26" .
+
+# クラス
+
+transport:Route                 a   rdfs:Class ;
+    rdfs:comment                    "電車などの路線を表すクラス" ;
+    rdfs:label                      "路線"@ja .
+
+transport:Plan                  a   rdfs:Class ;
+    rdfs:comment                    "運行計画を表すクラス" ;
+    rdfs:label                      "運行計画"@ja .
+
+transport:Arrival               a   rdfs:Class ;
+    rdfs:comment                    "列車が駅に到着することを表すクラス" ;
+    rdfs:label                      "到着"@ja .
+
+transport:Fare                  a   rdfs:Class ;
+    rdfs:comment                    "運賃を表すクラス";
+    rdfs:label                      "運賃"@ja .
+
+# プロパティ
+transport:from     a   rdf:Property ;
+    rdfs:comment            "始発駅を表すプロパティ" ;
+    rdfs:label              "始発"@ja .
+
+transport:to     a   rdf:Property ;
+    rdfs:comment            "終着駅を表すプロパティ" ;
+    rdfs:label              "終着"@ja .
+
+transport:route     a   rdf:Property ;
+    rdfs:comment            "属する路線を表すプロパティ" ;
+    rdfs:label              "路線"@ja .
+
+transport:dayOf     a   rdf:Property ;
+    rdfs:comment            "営業形態（平日か土日祝日か）を表すプロパティ" ;
+    rdfs:label              "営業形態"@ja .
+
+transport:direction     a   rdf:Property ;
+    rdfs:comment            "運行の向き（上り下り）を表すプロパティ" ;
+    rdfs:label              "方向"@ja .
+
+transport:arrivalTime   a   rdf:Property ;
+    rdfs:comment            "到着時刻を表すプロパティ" ;
+    rdf:label               "到着時刻"@ja .
+
+transport:previousStation     a   rdf:Property ;
+    rdfs:comment            "一つ前に到着した駅を表すプロパティ" ;
+    rdfs:label              "前の駅"@ja .
+
+transport:nextStation     a   rdf:Property ;
+    rdfs:comment            "次に到着する駅を表すプロパティ" ;
+    rdfs:label              "次の駅"@ja .
+
+transport:arrivalStation     a   rdf:Property ;
+    rdfs:comment            "到着した駅を表すプロパティ" ;
+    rdfs:label              "到着駅"@ja .
+
+transport:plan              a    rdf:Property ;
+    rdfs:comment            "運行計画を表すプロパティ" ;
+    rdfs:label              "運行計画"@ja .
+
+transport:station           a    rdf:Property ;
+    rdfs:comment            "駅を表すプロパティ" ;
+    rdfs:label              "駅"@ja .

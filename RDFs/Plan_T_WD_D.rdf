@@ -1,0 +1,1834 @@
+<rdf:RDF
+  xmlns:jrrk="http://purl.org/jrrk#"
+  xmlns:ic="http://imi.ipa.go.jp/ns/core/rdf#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:sac="http://statdb.nstac.go.jp/lod/sac/C"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:pc="http://purl.org/procurement/public-contracts#"
+  xmlns:odp="http://odp.jig.jp/odp/1.0#"
+  xmlns:schema="http://schema.org/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:bibo="http://purl.org/ontology/bibo/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:gr="http://purl.org/goodrelations/v1#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:qb="http://purl.org/linked-data/cube#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:georss="http://www.georss.org/georss"
+  xmlns:cal="http://www.w3.org/2002/12/cal/icaltzd#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:transport="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#"
+  >
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_000">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_001">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_002">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_003">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_004">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_005">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_006">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_007">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Shinomiya" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_008">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_009">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_010">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_011">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Shinomiya" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_012">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_013">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_014">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_015">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_016">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_017">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_018">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_019">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_020">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_021">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_022">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_023">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_024">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_025">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_026">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_027">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_028">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_029">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_030">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_031">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_032">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_033">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_034">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_035">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_036">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_037">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_038">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_039">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_040">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_041">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_042">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_043">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_044">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_045">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_046">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_047">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_048">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_049">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_050">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_051">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_052">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_053">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_054">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_055">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_056">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_057">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_058">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_059">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_060">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_061">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_062">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_063">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_064">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_065">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_066">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_067">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_068">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_069">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_070">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_071">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_072">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_073">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_074">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_075">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_076">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_077">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_078">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_079">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_080">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_081">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_082">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_083">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_084">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_085">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_086">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_087">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_088">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_089">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_090">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_091">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_092">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_093">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_094">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_095">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_096">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_097">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_098">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_099">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_100">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_101">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_102">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_103">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_104">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_105">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_106">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_107">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_108">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_109">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_110">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_111">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_112">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_113">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_114">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_115">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_116">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_117">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_118">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_119">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_120">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_121">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_122">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_123">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_124">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_125">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_126">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_127">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_128">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_129">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_130">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_131">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_132">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_133">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_134">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_135">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_136">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_137">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_138">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_139">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_140">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_141">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_142">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_143">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_144">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_145">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_146">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_147">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_148">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_149">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_150">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_151">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_152">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_153">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_154">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_155">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_156">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_157">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_158">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_159">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_160">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_161">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_162">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_163">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_164">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_165">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_166">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_167">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_168">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_169">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_170">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_171">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_172">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_173">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_174">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_175">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_176">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_177">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_178">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_179">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_180">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_181">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_182">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_183">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_184">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_185">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_186">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_187">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_188">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_189">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_190">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_191">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_192">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_193">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_194">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_195">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_196">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_197">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_198">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_199">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Plan_T_WD_D_200">
+    <transport:from rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <transport:to rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <transport:route rdf:resource="https://kyoto-subway.herokuapp.com/detail/Tozai_Line" />
+    <transport:dayOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">平日</transport:dayOf>
+    <transport:direction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">下り</transport:direction>
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Plan" />
+  </rdf:Description>
+
+</rdf:RDF>

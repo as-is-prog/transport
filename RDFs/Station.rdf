@@ -1,0 +1,236 @@
+<rdf:RDF
+  xmlns:jrrk="http://purl.org/jrrk#"
+  xmlns:ic="http://imi.ipa.go.jp/ns/core/rdf#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:sac="http://statdb.nstac.go.jp/lod/sac/C"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:pc="http://purl.org/procurement/public-contracts#"
+  xmlns:odp="http://odp.jig.jp/odp/1.0#"
+  xmlns:schema="http://schema.org/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:bibo="http://purl.org/ontology/bibo/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:gr="http://purl.org/goodrelations/v1#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:qb="http://purl.org/linked-data/cube#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:georss="http://www.georss.org/georss"
+  xmlns:cal="http://www.w3.org/2002/12/cal/icaltzd#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:transport="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#"
+  >
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Kokusaikaikan">
+    <schema:name>国際会館</schema:name>
+    <schema:identifier>K01</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Matsugasaki">
+    <schema:name>松ヶ崎</schema:name>
+    <schema:identifier>K02</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Kitayama">
+    <schema:name>北山</schema:name>
+    <schema:identifier>K03</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Kitaoji">
+    <schema:name>北大路</schema:name>
+    <schema:identifier>K04</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Kuramaguchi">
+    <schema:name>鞍馬口</schema:name>
+    <schema:identifier>K05</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Imadegawa">
+    <schema:name>今出川</schema:name>
+    <schema:identifier>K06</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Marutamachi">
+    <schema:name>丸太町</schema:name>
+    <schema:identifier>K07</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/KarasumaOike">
+    <schema:name>烏丸御池</schema:name>
+    <schema:identifier>K08</schema:identifier>
+    <schema:identifier>T13</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Shijo">
+    <schema:name>四条</schema:name>
+    <schema:identifier>K09</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Gojo">
+    <schema:name>五条</schema:name>
+    <schema:identifier>K10</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Kyoto">
+    <schema:name>京都</schema:name>
+    <schema:identifier>K11</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Kujo">
+    <schema:name>九条</schema:name>
+    <schema:identifier>K12</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Jujo">
+    <schema:name>十条</schema:name>
+    <schema:identifier>K13</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Kuinabashi">
+    <schema:name>くいな橋</schema:name>
+    <schema:identifier>K14</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Takeda">
+    <schema:name>竹田</schema:name>
+    <schema:identifier>K15</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/KintetsuNara">
+    <schema:name>近鉄奈良</schema:name>
+    <schema:identifier>A28</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Shintanabe">
+    <schema:name>新田辺</schema:name>
+    <schema:identifier>B16</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Rokujizo">
+    <schema:name>六地蔵</schema:name>
+    <schema:identifier>T01</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Ishida">
+    <schema:name>石田</schema:name>
+    <schema:identifier>T02</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Daigo">
+    <schema:name>醍醐</schema:name>
+    <schema:identifier>T03</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Ono">
+    <schema:name>小野</schema:name>
+    <schema:identifier>T04</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Nagitsuji">
+    <schema:name>椥辻</schema:name>
+    <schema:identifier>T05</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Higashino">
+    <schema:name>東野</schema:name>
+    <schema:identifier>T06</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Yamashina">
+    <schema:name>山科</schema:name>
+    <schema:identifier>T07</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Misasagi">
+    <schema:name>御陵</schema:name>
+    <schema:identifier>T08</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Keage">
+    <schema:name>蹴上</schema:name>
+    <schema:identifier>T09</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Higashiyama">
+    <schema:name>東山</schema:name>
+    <schema:identifier>T10</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/SanjoKeihan">
+    <schema:name>三条京阪</schema:name>
+    <schema:identifier>T11</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae">
+    <schema:name>京都市役所前</schema:name>
+    <schema:identifier>T12</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/NijojoMae">
+    <schema:name>二条城前</schema:name>
+    <schema:identifier>T14</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Nijo">
+    <schema:name>二条</schema:name>
+    <schema:identifier>T15</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/NishiojiOike">
+    <schema:name>西大路御池</schema:name>
+    <schema:identifier>T16</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa">
+    <schema:name>太秦天神川</schema:name>
+    <schema:identifier>T17</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu">
+    <schema:name>びわ湖浜大津</schema:name>
+    <schema:identifier>OT12</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Shinomiya">
+    <schema:name>四宮</schema:name>
+    <schema:identifier>OT32</schema:identifier>
+    <rdf:type rdf:resource="http://schema.org/TrainStation"/>
+  </rdf:Description>
+
+</rdf:RDF>

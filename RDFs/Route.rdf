@@ -1,0 +1,71 @@
+<rdf:RDF
+  xmlns:jrrk="http://purl.org/jrrk#"
+  xmlns:ic="http://imi.ipa.go.jp/ns/core/rdf#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:sac="http://statdb.nstac.go.jp/lod/sac/C"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:pc="http://purl.org/procurement/public-contracts#"
+  xmlns:odp="http://odp.jig.jp/odp/1.0#"
+  xmlns:schema="http://schema.org/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:bibo="http://purl.org/ontology/bibo/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:gr="http://purl.org/goodrelations/v1#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:qb="http://purl.org/linked-data/cube#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:georss="http://www.georss.org/georss"
+  xmlns:cal="http://www.w3.org/2002/12/cal/icaltzd#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:transport="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#"
+  >
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Tozai_Line">
+    <schema:name>東西線</schema:name>
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Rokujizo" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ishida" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Daigo" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Ono" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nagitsuji" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashino" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Yamashina" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Misasagi" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Keage" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Higashiyama" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/SanjoKeihan" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/KyotoShiyakushoMae" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/NijojoMae" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Nijo" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/NishiojiOike" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/UzumasaTenjingawa" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/BiwakoHamaotsu" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Shinomiya" />
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Route" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://kyoto-subway.herokuapp.com/detail/Karasuma_Line">
+    <schema:name>烏丸線</schema:name>
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kokusaikaikan" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Matsugasaki" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitayama" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kitaoji" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuramaguchi" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Imadegawa" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Marutamachi" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/KarasumaOike" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Shijo" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Gojo" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kyoto" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kujo" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Jujo" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Kuinabashi" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Takeda" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/KintetsuNara" />
+    <dcterms:hasPart rdf:resource="https://kyoto-subway.herokuapp.com/detail/Shintanabe" />
+    <rdf:type rdf:resource="https://kyoto-subway.herokuapp.com/URIs/transport-schema.ttl#Route" />
+  </rdf:Description>
+
+</rdf:RDF>

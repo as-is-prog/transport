@@ -1,0 +1,8 @@
+
+*
+
+!*/
+
+!/URIs/*.ttl
+!/RDFs/*.rdf
+!.gitignore
